@@ -1,8 +1,6 @@
 ﻿using Mathematic;
 
-var random = new Random();
-int Number1;
-int Number2;
+
 DateTime dateTime = DateTime.Now;
 
 AdditionGame additionGame = new AdditionGame();

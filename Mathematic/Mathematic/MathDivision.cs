@@ -1,11 +1,8 @@
 ﻿using Mathematic.Models;
 using System;
-using System.Collections.Generic;
+
 using System.Diagnostics;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mathematic
 {
@@ -45,7 +42,7 @@ namespace Mathematic
                     {
                         var random = new Random();
                         Console.WriteLine($"Round {i}");
-                        //var gameNumber = GetDivisionNumber();
+                        
                         int firstNumber = random.Next(1, 9);
                         int secondNumber = random.Next(1, 9);
                         while (firstNumber % secondNumber != 0)
@@ -85,7 +82,7 @@ namespace Mathematic
                         sw.Start();
                         var random = new Random();
                         Console.WriteLine($"Round {i}");
-                        //var gameNumber = GetDivisionNumber();
+                        
                         int firstNumber = random.Next(10, 30);
                         int secondNumber = random.Next(10, 30);
                         while (firstNumber % secondNumber != 0)
@@ -125,7 +122,7 @@ namespace Mathematic
                         sw.Start();
                         var random = new Random();
                         Console.WriteLine($"Round {i}");
-                        //var gameNumber = GetDivisionNumber();
+                        
                         int firstNumber = random.Next(30, 100);
                         int secondNumber = random.Next(30, 100);
                         while (firstNumber % secondNumber != 0)
